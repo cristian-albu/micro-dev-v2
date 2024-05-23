@@ -1,0 +1,39 @@
+.moduleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  :nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .content {
+      width: calc(50% - 1rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .imgContainer {
+      width: calc(50% - 1rem);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img {
+        border-radius: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.section {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .headingContainer {
+      width: 50%;
+      color: white;
+    }
+
+    .imageContainer {
+      width: 50%;
+      .image {
+        border-radius: 5px;
+        overflow: hidden;
+      }
+    }
+  }
+}

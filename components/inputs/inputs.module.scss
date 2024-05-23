@@ -1,9 +1,12 @@
 @use "@/app/variables";
 
 .label {
+  width: 100%;
   .labelChildren {
+    width: 100%;
   }
 
   .textInput {
+    width: 100%;
   }
 }
