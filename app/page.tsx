@@ -1,4 +1,4 @@
-import ContactFormSection from "@/components/contact-form-section/ContactFormSection";
+import ContactFormSection from "@/components/sections/contact-form-section";
 import React from "react";
 
 const Homepage = () => {
