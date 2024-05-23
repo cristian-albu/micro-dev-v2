@@ -1,0 +1,43 @@
+@use "../../app/variables";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  outline: none;
+  border: 2px solid variables.$primary;
+  background-color: transparent;
+  color: variables.$primary;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  transition: background-color 200ms, color 200ms, scale 200ms;
+
+  &:hover {
+    background-color: variables.$primary;
+    color: variables.$dark;
+  }
+
+  &:active {
+    scale: 0.95;
+  }
+
+  &:disabled {
+    color: rgb(229, 229, 229);
+    cursor: not-allowed;
+    border: 2px solid rgb(229, 229, 229);
+
+    &:hover {
+      background-color: transparent;
+      color: rgb(229, 229, 229);
+    }
+
+    &:active {
+      scale: 1;
+    }
+  }
+}
