@@ -1,11 +1,7 @@
-import { Pool } from "pg";
+import { Pool, PoolConfig } from "pg";
 
-export const dbConfig = {
-  user: process.env.PGUSER,
-  host: process.env.PGHOST,
-  database: process.env.PGDATABASE,
-  password: process.env.PGPASSWORD,
-  port: Number(process.env.PGPORT),
+export const dbConfig: PoolConfig = {
+  connectionString: process.env.DB_CONNECTION_STRING,
 };
 
 const pool = new Pool(dbConfig);
