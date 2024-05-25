@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.scss";
+import GdprContextProvider from "@/components/gdpr/GdprContext";
 
 const poppins = Poppins({
   weight: ["100", "300", "400", "500"],
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <GdprContextProvider>
+        <body className={poppins.className}>{children}</body>
+      </GdprContextProvider>
     </html>
   );
 }
