@@ -1,0 +1,11 @@
+.policy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .policyItem {
+    ul {
+      list-style-type: disc;
+      list-style-position: inside;
+    }
+  }
+}

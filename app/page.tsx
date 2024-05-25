@@ -1,3 +1,4 @@
+import { GdprContents } from "@/components/gdpr";
 import ContactFormSection from "@/components/sections/contact-form-section";
 import HeroSection from "@/components/sections/hero-section";
 import ModulesSection from "@/components/sections/modules-section";
@@ -13,6 +14,7 @@ const Homepage = () => {
       <ValuesSection />
       <TestimonialsSection />
       <ContactFormSection />
+      <GdprContents />
     </>
   );
 };
