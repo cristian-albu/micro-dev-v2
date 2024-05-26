@@ -71,8 +71,9 @@ const cookiesPolicy: T_Policy = [
       text: "Folosim scripturile noastre de analiză pentru a colecta date despre utilizarea site-ului nostru. Aceste date ne ajută să înțelegem cum este utilizat site-ul nostru și cum putem îmbunătăți experiența dvs. Aveți opțiunea de a renunța la această colectare de date, ceea ce înseamnă că vom colecta doar date anonime despre vizite și nu vom stoca nicio informație personală despre dvs. Acestea pot înregistra următoarele dar vor fi stocate conglomerat fără detalii salvate despre informații individuale:",
       bullets: [
         "Țara din care a fost accesat site-ul.",
-        "Tipul de device (laptop, calculator, mobil, etc.)",
-        "Tipul de browser (Google Chrome, Mozzila Firefox, etc.)",
+        "Adresa IP de pe care a fost accesat site-ul.",
+        "Tipul de device (laptop, calculator, mobil, etc.).",
+        "Tipul de browser (Google Chrome, Mozzila Firefox, etc.).",
       ],
     },
   },

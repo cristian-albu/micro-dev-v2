@@ -24,7 +24,7 @@ export const data: T_ValuesData = {
       },
     },
     {
-      title: "Creativitatea",
+      title: "Ceva",
       description: "Lorem ipsum dolor sit amet",
       image: {
         title: "",
@@ -32,7 +32,7 @@ export const data: T_ValuesData = {
       },
     },
     {
-      title: "Creativitatea",
+      title: "Altceva",
       description: "Lorem ipsum dolor sit amet",
       image: {
         title: "",

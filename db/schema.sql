@@ -1,6 +1,6 @@
 
 CREATE TABLE users (
-    user_id SERIAL PRIMARY KEY,
+    user_id VARCHAR(255) PRIMARY KEY,
     accepts_cookies BOOLEAN DEFAULT false NOT NULL,
     accepts_analytics BOOLEAN DEFAULT false NOT NULL,
     accepts_policy BOOLEAN DEFAULT false NOT NULL,
