@@ -10,7 +10,7 @@ export const checkTypes = {
   error: "Error",
 };
 
-export async function checkUser() {
+export async function checkThatUserExists() {
   const reqHeaders = headers();
   const ip = reqHeaders.get("x-forwarded-for") || "";
 

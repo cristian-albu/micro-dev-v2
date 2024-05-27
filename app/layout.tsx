@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.scss";
 import GdprContextProvider from "@/components/gdpr/GdprContext";
 import { Nav, Footer } from "@/components/navigation";
-import { checkTypes, checkUser } from "@/lib/handleUser";
+import { checkTypes, checkThatUserExists } from "@/lib/handleUser";
 
 const poppins = Poppins({
   weight: ["100", "300", "400", "500"],
